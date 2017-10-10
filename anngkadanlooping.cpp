@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void main(){
+int main(){
 	int pil,angka,a,b,c;
 	clrscr();
 	cout<<"===== PILIHAN =====\n";
