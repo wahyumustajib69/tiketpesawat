@@ -1,6 +1,8 @@
 #include<iostream.h>
 #include<conio.h>
 
+using namespace std;
+
 void main(){
 	int pil,angka,a,b,c;
 	clrscr();
