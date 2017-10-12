@@ -5,11 +5,11 @@ using namespace std;
 
 int main(){
 	int pil,angka,a,b,c;
-	clrscr();
-	cout<<"===== PILIHAN =====\n";
-	cout<<"[1] GANJIL GENAP\n";
-	cout<<"[2] LOOPING\n";
-	cout<<"[3] EXIT\n";
+
+	cout<<"\t\t\t===== PILIHAN =====\n";
+	cout<<"\t\t\t[1] GANJIL GENAP\n";
+	cout<<"\t\t\t[2] LOOPING\n";
+	cout<<"\t\t\t[3] EXIT\n";
 	cout<<"\n";
 	
 	cout<<"MASUKKAN PILIHAN	: ";cin>>pil;
@@ -27,7 +27,7 @@ int main(){
 			cout<<"MASUKKAN ANGKA : ";cin>>a;
 			c=1;
 			for (b=1;b<=a+1;b++){
-				cout<<c<<"";
+				cout<<c<<" ";
 				c=b+c;
 			}
 			break;
